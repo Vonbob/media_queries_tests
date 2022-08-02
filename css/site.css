@@ -37,4 +37,29 @@ div.info
     }
 }
 
+@media (any-pointer: none)
+{
+    .any-pointer::after
+    {
+        content: "none";
+    }
+}
+
+@media (any-pointer: coarse)
+{
+    .any-pointer::after
+    {
+        content: "coarse";
+    }
+}
+
+@media (any-pointer: fine)
+{
+    .any-pointer::after
+    {
+        content: "fine";
+    }
+}
+
+
 

@@ -1,0 +1,23 @@
+div.info
+{
+    font-size: 24px;
+    font-family: cursive;
+}
+
+
+@media (any-hover: hover)
+{
+    .any-hover-box::after
+    {
+        content: "hover";
+    }
+}
+
+@media not all and (any-hover: hover)
+{
+    .any-hover-box::after
+    {
+        content: "none";
+    }
+}
+

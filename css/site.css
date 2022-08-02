@@ -61,5 +61,30 @@ div.info
     }
 }
 
+@media (pointer: none)
+{
+    .pointer::after
+    {
+        content: "none";
+    }
+}
+
+@media (pointer: coarse)
+{
+    .pointer::after
+    {
+        content: "coarse";
+    }
+}
+
+@media (pointer: fine)
+{
+    .pointer::after
+    {
+        content: "fine";
+    }
+}
+
+
 
 

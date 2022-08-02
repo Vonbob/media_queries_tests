@@ -21,3 +21,20 @@ div.info
     }
 }
 
+@media (hover: hover)
+{
+    .hover-box::after
+    {
+        content: "hover";
+    }
+}
+
+@media not all and (hover: hover)
+{
+    .hover-box::after
+    {
+        content: "none";
+    }
+}
+
+
